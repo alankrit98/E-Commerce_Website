@@ -1,6 +1,6 @@
-# E-Commerce Website
+# Trendify: E-Commerce Platform
 
-A full-stack e-commerce website built with **React**, **Vite**, **Node.js**, and **MongoDB**.
+A full-stack e-commerce platform *Trendify* built with **React**, **Vite**, **Node.js**, and **MongoDB**.
 
 ## 📂 Project Structure
 The project is organized into three main directories:
