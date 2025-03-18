@@ -23,7 +23,6 @@ admin/
 │── src/
 │   │── components/       # Reusable UI components
 │   │── pages/            # Dashboard pages
-│   │── hooks/            # Custom hooks
 │   │── context/          # State management
 │   │── App.js            # Main app component
 │   └── index.js          # Entry point
@@ -51,7 +50,6 @@ frontend/
 │── src/
 │   │── components/       # Reusable UI components
 │   │── pages/            # Website pages
-│   │── hooks/            # Custom hooks
 │   │── context/          # Global state (ShopContext)
 │   │── App.js            # Main app component
 │   └── index.js          # Entry point
@@ -121,17 +119,17 @@ Create `.env` files in both **backend** and **frontend** directories based on th
 ```sh
 cd backend
 npm install
-npm start
+npm run server
 ```
 
-#### 4️⃣ Install dependencies and start frontend
+#### 4️⃣ Install dependencies and start frontend - localhost:5173
 ```sh
 cd ../frontend
 npm install
 npm run dev
 ```
 
-#### 5️⃣ Install dependencies and start admin dashboard
+#### 5️⃣ Install dependencies and start admin dashboard - localhost:5174
 ```sh
 cd ../admin
 npm install
