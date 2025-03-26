@@ -21,11 +21,12 @@ E-Commerce-Website/
 ```
 admin/
 │── src/
+|   |── assets/           # Usable Images
 │   │── components/       # Reusable UI components
 │   │── pages/            # Dashboard pages
-│   │── context/          # State management
-│   │── App.js            # Main app component
-│   └── index.js          # Entry point
+│   │── App.jsx           # Main app component
+|   |── index.css         # Taiwind Utilities
+│   └── main.jsx          # Entry point
 │── public/               # Static assets
 │── package.json          # Dependencies
 │── .env                  # Environment variables
@@ -38,7 +39,7 @@ backend/
 │── controllers/          # Business logic
 │── routes/               # API endpoints
 │── middleware/           # Authentication & file handling
-│── config/               # Database & cloud storage configuration
+│── config/               # Database & cloud storage configuration cloudinary
 │── server.js             # Entry point
 │── package.json          # Dependencies
 │── .env                  # Environment variables
@@ -48,11 +49,13 @@ backend/
 ```
 frontend/
 │── src/
+|   |── assets/           # Usable Images
 │   │── components/       # Reusable UI components
 │   │── pages/            # Website pages
 │   │── context/          # Global state (ShopContext)
-│   │── App.js            # Main app component
-│   └── index.js          # Entry point
+│   │── App.jsx           # Main app component
+|   |── index.css         # Tailwind Utilities
+│   └── main.jsx          # Entry point
 │── public/               # Static assets
 │── package.json          # Dependencies
 │── .env                  # Environment variables
